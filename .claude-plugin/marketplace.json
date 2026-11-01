@@ -1,0 +1,16 @@
+{
+  "name": "builderii",
+  "description": "Builderii's plugin for Claude: your boards, flows and wireframes.",
+  "owner": {
+    "name": "Builderii",
+    "url": "https://app.builderii.com"
+  },
+  "plugins": [
+    {
+      "name": "builderii",
+      "description": "Your Builderii boards in Claude: design app screens and clickable prototypes, draw flowcharts, mind maps, sequence diagrams, sitemaps, roadmaps and database diagrams, change the ones on your boards, brainstorm onto sticky notes, run Builderii's own AI, and leave review comments on the right screen or step.",
+      "category": "design",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "builderii": {
+      "type": "http",
+      "url": "https://app.builderii.com/mcp"
+    }
+  }
+}
