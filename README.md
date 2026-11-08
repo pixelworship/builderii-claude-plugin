@@ -21,6 +21,10 @@ The plugin connects to your Builderii account through Builderii's MCP server (`h
 
 It acts with your access: any board you can open in Builderii, it can open. Disconnect it any time in Builderii under **Settings → Connected apps**.
 
+## What the plugin can reach
+
+The plugin is six skills (instructions in Markdown), two images and the address of Builderii's server, `https://app.builderii.com/mcp`, with no headers or environment values. It runs nothing on your computer: no scripts, hooks or commands, and it reads no files, environment variables or saved passwords. You sign in to Builderii in your browser and allow Claude, as with any connector; Claude keeps that connection, and the plugin never sees or sends it.
+
 ## Skills
 
 - **builderii**: how to work in your boards: which tool for what (drawing it yourself or with Builderii's AI, changing diagrams in place), finding boards before making new ones, linking them.
